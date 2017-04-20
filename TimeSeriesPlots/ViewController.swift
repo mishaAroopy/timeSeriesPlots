@@ -72,6 +72,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configurePlots()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        addDataToPlots()
+    }
+    
+    func configurePlots(){
         let theme = CPTTheme(named: CPTThemeName.darkGradientTheme)
         bigGraph.apply(theme)
         bigGraph.paddingTop = 0
@@ -121,9 +129,7 @@ class ViewController: UIViewController {
         }
         self.graph = bigGraph
     }
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
+    func addDataToPlots(){
         let thirtydaysAgo = Date().addingTimeInterval( -30.0 * 24.0 * 60.0 * 60.0 )
         refDate = thirtydaysAgo
         refDate_Double = Double( refDate.timeIntervalSinceReferenceDate )
