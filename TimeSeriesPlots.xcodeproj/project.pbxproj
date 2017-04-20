@@ -12,7 +12,76 @@
 		FD8BD1DD1EA83BFA0040853F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8BD1DB1EA83BFA0040853F /* Main.storyboard */; };
 		FD8BD1DF1EA83BFA0040853F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8BD1DE1EA83BFA0040853F /* Assets.xcassets */; };
 		FD8BD1E21EA83BFA0040853F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8BD1E01EA83BFA0040853F /* LaunchScreen.storyboard */; };
+		FD8BD20E1EA8446B0040853F /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8BD2051EA8425E0040853F /* libCorePlot-CocoaTouch.a */; };
+		FD8BD2111EA8479F0040853F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8BD2101EA8479F0040853F /* Accelerate.framework */; };
+		FD8BD2131EA847C20040853F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8BD2121EA847C20040853F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD8BD1FC1EA8425E0040853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = "CorePlot Mac";
+		};
+		FD8BD1FE1EA8425E0040853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0730F600109492D800E95162;
+			remoteInfo = "UnitTests Mac";
+		};
+		FD8BD2001EA8425E0040853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C38A09781A46185200D45436;
+			remoteInfo = "CorePlot iOS";
+		};
+		FD8BD2021EA8425E0040853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C38A09821A46185300D45436;
+			remoteInfo = "UnitTests iOS";
+		};
+		FD8BD2041EA8425E0040853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C38A09BA1A4619A900D45436;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		FD8BD2061EA8425E0040853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C38A09C41A4619A900D45436;
+			remoteInfo = "CorePlot-CocoaTouchTests";
+		};
+		FD8BD2081EA8425E0040853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C37EA6921BC83F2A0091C8F7;
+			remoteInfo = "CorePlot tvOS";
+		};
+		FD8BD20A1EA8425E0040853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C37EA6B71BC83F2D0091C8F7;
+			remoteInfo = "UnitTests tvOS";
+		};
+		FD8BD20C1EA843810040853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C38A09B91A4619A900D45436;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FD8BD1D41EA83BFA0040853F /* TimeSeriesPlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSeriesPlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +91,10 @@
 		FD8BD1DE1EA83BFA0040853F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD8BD1E11EA83BFA0040853F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD8BD1E31EA83BFA0040853F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CorePlot.xcodeproj; path = "../../../../Downloads/core-plot-master/framework/CorePlot.xcodeproj"; sourceTree = "<group>"; };
+		FD8BD2101EA8479F0040853F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FD8BD2121EA847C20040853F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FD8BD2141EA849B60040853F /* TimeSeriesPlots-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeSeriesPlots-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +102,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8BD2131EA847C20040853F /* QuartzCore.framework in Frameworks */,
+				FD8BD2111EA8479F0040853F /* Accelerate.framework in Frameworks */,
+				FD8BD20E1EA8446B0040853F /* libCorePlot-CocoaTouch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +116,7 @@
 			children = (
 				FD8BD1D61EA83BFA0040853F /* TimeSeriesPlots */,
 				FD8BD1D51EA83BFA0040853F /* Products */,
+				FD8BD20F1EA8479F0040853F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +133,38 @@
 			children = (
 				FD8BD1D71EA83BFA0040853F /* AppDelegate.swift */,
 				FD8BD1D91EA83BFA0040853F /* ViewController.swift */,
+				FD8BD2141EA849B60040853F /* TimeSeriesPlots-Bridging-Header.h */,
 				FD8BD1DB1EA83BFA0040853F /* Main.storyboard */,
 				FD8BD1DE1EA83BFA0040853F /* Assets.xcassets */,
 				FD8BD1E01EA83BFA0040853F /* LaunchScreen.storyboard */,
 				FD8BD1E31EA83BFA0040853F /* Info.plist */,
+				FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */,
 			);
 			path = TimeSeriesPlots;
+			sourceTree = "<group>";
+		};
+		FD8BD1ED1EA8425E0040853F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD8BD1FD1EA8425E0040853F /* CorePlot.framework */,
+				FD8BD1FF1EA8425E0040853F /* UnitTests.xctest */,
+				FD8BD2011EA8425E0040853F /* CorePlot.framework */,
+				FD8BD2031EA8425E0040853F /* UnitTests iOS.xctest */,
+				FD8BD2051EA8425E0040853F /* libCorePlot-CocoaTouch.a */,
+				FD8BD2071EA8425E0040853F /* CorePlot-CocoaTouchTests.xctest */,
+				FD8BD2091EA8425E0040853F /* CorePlot.framework */,
+				FD8BD20B1EA8425E0040853F /* UnitTests tvOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD8BD20F1EA8479F0040853F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD8BD2121EA847C20040853F /* QuartzCore.framework */,
+				FD8BD2101EA8479F0040853F /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +181,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FD8BD20D1EA843810040853F /* PBXTargetDependency */,
 			);
 			name = TimeSeriesPlots;
 			productName = TimeSeriesPlots;
@@ -112,12 +216,77 @@
 			mainGroup = FD8BD1CB1EA83BF90040853F;
 			productRefGroup = FD8BD1D51EA83BFA0040853F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FD8BD1ED1EA8425E0040853F /* Products */;
+					ProjectRef = FD8BD1EC1EA8425E0040853F /* CorePlot.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FD8BD1D31EA83BFA0040853F /* TimeSeriesPlots */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FD8BD1FD1EA8425E0040853F /* CorePlot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CorePlot.framework;
+			remoteRef = FD8BD1FC1EA8425E0040853F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FD8BD1FF1EA8425E0040853F /* UnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.xctest;
+			remoteRef = FD8BD1FE1EA8425E0040853F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FD8BD2011EA8425E0040853F /* CorePlot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CorePlot.framework;
+			remoteRef = FD8BD2001EA8425E0040853F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FD8BD2031EA8425E0040853F /* UnitTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UnitTests iOS.xctest";
+			remoteRef = FD8BD2021EA8425E0040853F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FD8BD2051EA8425E0040853F /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = FD8BD2041EA8425E0040853F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FD8BD2071EA8425E0040853F /* CorePlot-CocoaTouchTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "CorePlot-CocoaTouchTests.xctest";
+			remoteRef = FD8BD2061EA8425E0040853F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FD8BD2091EA8425E0040853F /* CorePlot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CorePlot.framework;
+			remoteRef = FD8BD2081EA8425E0040853F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FD8BD20B1EA8425E0040853F /* UnitTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UnitTests tvOS.xctest";
+			remoteRef = FD8BD20A1EA8425E0040853F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FD8BD1D21EA83BFA0040853F /* Resources */ = {
@@ -143,6 +312,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD8BD20D1EA843810040853F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = FD8BD20C1EA843810040853F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FD8BD1DB1EA83BFA0040853F /* Main.storyboard */ = {
@@ -262,10 +439,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HZQXS34837;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../core-plot-master/framework/**";
 				INFOPLIST_FILE = TimeSeriesPlots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aroopyinc.TimeSeriesPlots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeSeriesPlots/TimeSeriesPlots-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -275,10 +456,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HZQXS34837;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../core-plot-master/framework/**";
 				INFOPLIST_FILE = TimeSeriesPlots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aroopyinc.TimeSeriesPlots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeSeriesPlots/TimeSeriesPlots-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +487,7 @@
 				FD8BD1E81EA83BFA0040853F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
